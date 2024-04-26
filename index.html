@@ -1,16 +1,90 @@
 
-<html>
-    <h1>
-        Hey, I'm Leo
-    </h1>
-    <body>
-        <h2>About me</h2>
-        <p>
-            I am a game dev that makes games once in a while.
-        </p>
-        <h2>What I'm working on</h2>
-        <p>
-            I'm working on a new game for people to enjoy.
-        </p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeoDev Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        section {
+            padding: 40px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LeoDev</h1>
+        <p>I create horror games!</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#games">Games</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a indie game developer that tries to create engaging and amazing experiences as games!</p>
+    </section>
+
+    <section id="games">
+        <h2>Featured Games</h2>
+        <div>
+            <h3>Far From Home</h3>
+            <p>In this game you are a guy who decided to move out of the city and go somewhere far from where he's used to. When you get to your new house it seems a bit strange that it's so quiet out there, but you shrug it off because you're too excited to enter your new home. That's when strange things start happening.</p>
+            <img src="farfromhomeimg.png" alt="Far From Home Screenshot" style="max-width: 100%; height: auto;">
+            <p><a href="https://leoindiegamedev.itch.io/far-from-home">Play Far From Home</a></p>
+        </div>
+        <div>
+            <h3>Just A Late Night Snack</h3>
+            <p>A horror game about eating a snack late at night, or is it not? Discover by Playing the game!</p>
+            <img src="justalatenightsnackimg.png" alt="Just A Late Night Snack Screenshot" style="max-width: 100%; height: auto;">
+            <p><a href="https://leoindiegamedev.itch.io/just-a-late-night-snack">Play Just A Late Night Snack</a></p>
+        </div>
+        <!-- Add more game entries as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Interested in collaborating or have any questions? Feel free to reach out!</p>
+        <p>Email: <a href="mailto:leoindiegamedevsupp@gmail.com">leoindiegamedevsupp@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 LeoDev. All rights reserved.</p>
+    </footer>
+</body>
 </html>
